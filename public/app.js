@@ -17,4 +17,10 @@ var createQuoteArticle = function() {
   return quoteArticle;
 };
 
+var createBlockQuote = function(text) {
+  var blockquote = document.createElement('blockquote');
+  blockquote.innerText = text + " ";
+  return blockquote;
+};
+
 window.onload = app;
