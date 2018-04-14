@@ -3,4 +3,10 @@ var app = function() {
   addQuote("Darth Sidious", "Do it");
 };
 
+var createQuoteArticle = function() {
+  var quoteArticle = document.createElement('article');
+  quoteArticle.classList.add('quote');
+  return quoteArticle;
+};
+
 window.onload = app;
