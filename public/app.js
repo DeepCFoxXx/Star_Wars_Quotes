@@ -29,4 +29,11 @@ var createCite = function(author) {
   return cite;
 };
 
+var appendElements = function(quotes, quoteArticle, blockquote, cite) {
+  blockquote.appendChild(cite);
+  quoteArticle.appendChild(blockquote);
+  quotes.appendChild(quoteArticle);
+};
+
+
 window.onload = app;
