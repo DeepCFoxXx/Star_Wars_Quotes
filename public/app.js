@@ -1,6 +1,6 @@
 var app = function() {
-  addQuote("Obi Wan Kenobi", "Hello There");
-  addQuote("Darth Sidious", "Do it");
+  addQuote("Obi Wan Kenobi", "Hello There ");
+  addQuote("Darth Sidious", "Do it ");
 };
 
 var addQuote = function(author, text) {
