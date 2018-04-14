@@ -23,4 +23,10 @@ var createBlockQuote = function(text) {
   return blockquote;
 };
 
+var createCite = function(author) {
+  var cite = document.createElement('cite');
+  cite.innerText = author;
+  return cite;
+};
+
 window.onload = app;
